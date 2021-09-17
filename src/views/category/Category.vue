@@ -1,15 +1,242 @@
 <template>
-  <div>
-    分类
-  </div>
+  <Scroll class="wrapper">
+    <ul class="content">
+      <li>你好</li>
+      <li>你好</li>
+      <li>你好</li>
+      <li>你好</li>
+      <li>你好</li>
+      <li>你好</li>
+      <li>你好</li>
+      <li>你好</li>
+      <li>你好</li>
+      <li>你好</li>
+      <li>你好</li>
+      <li>你好</li>
+      <li>你好</li>
+      <li>你好</li>
+      <li>你好</li>
+      <li>你好</li>
+      <li>你好</li>
+      <li>你好</li>
+      <li>你好</li>
+      <li>你好</li>
+      <li>你好</li>
+      <li>你好</li>
+      <li>你好</li>
+      <li>你好</li>
+      <li>你好</li>
+      <li>你好</li>
+      <li>你好</li>
+      <li>你好</li>
+      <li>你好</li>
+      <li>你好</li>
+      <li>你好</li>
+      <li>你好</li>
+      <li>你好</li>
+      <li>你好</li>
+      <li>你好</li>
+      <li>你好</li>
+      <li>你好</li>
+      <li>你好</li>
+      <li>你好</li>
+      <li>你好</li>
+      <li>你好</li>
+      <li>你好</li>
+      <li>你好</li>
+      <li>你好</li>
+      <li>你好</li>
+      <li>你好</li>
+      <li>你好</li>
+      <li>你好</li>
+      <li>你好</li>
+      <li>你好</li>
+      <li>你好</li>
+      <li>你好</li>
+      <li>你好</li>
+      <li>你好</li>
+      <li>你好</li>
+      <li>你好</li>
+      <li>你好</li>
+      <li>你好</li>
+      <li>你好</li>
+      <li>你好</li>
+      <li>你好</li>
+      <li>你好</li>
+      <li>你好</li>
+      <li>你好</li>
+      <li>你好</li>
+      <li>你好</li>
+      <li>你好</li>
+      <li>你好</li>
+      <li>你好</li>
+      <li>你好</li>
+      <li>你好</li>
+      <li>你好</li>
+      <li>你好</li>
+      <li>你好</li>
+      <li>你好</li>
+      <li>你好</li>
+      <li>你好</li>
+      <li>你好</li>
+      <li>你好</li>
+      <li>你好</li>
+      <li>你好</li>
+      <li>你好</li>
+      <li>你好</li>
+      <li>你好</li>
+      <li>你好</li>
+      <li>你好</li>
+      <li>你好</li>
+      <li>你好</li>
+      <li>你好</li>
+      <li>你好</li>
+      <li>你好</li>
+      <li>你好</li>
+      <li>你好</li>
+      <li>你好</li>
+      <li>你好</li>
+      <li>你好</li>
+      <li>你好</li>
+      <li>你好</li>
+      <li>你好</li>
+      <li>你好</li>
+    </ul>
+    <ul class="content">
+      <li>你好</li>
+      <li>你好</li>
+      <li>你好</li>
+      <li>你好</li>
+      <li>你好</li>
+      <li>你好</li>
+      <li>你好</li>
+      <li>你好</li>
+      <li>你好</li>
+      <li>你好</li>
+      <li>你好</li>
+      <li>你好</li>
+      <li>你好</li>
+      <li>你好</li>
+      <li>你好</li>
+      <li>你好</li>
+      <li>你好</li>
+      <li>你好</li>
+      <li>你好</li>
+      <li>你好</li>
+      <li>你好</li>
+      <li>你好</li>
+      <li>你好</li>
+      <li>你好</li>
+      <li>你好</li>
+      <li>你好</li>
+      <li>你好</li>
+      <li>你好</li>
+      <li>你好</li>
+      <li>你好</li>
+      <li>你好</li>
+      <li>你好</li>
+      <li>你好</li>
+      <li>你好</li>
+      <li>你好</li>
+      <li>你好</li>
+      <li>你好</li>
+      <li>你好</li>
+      <li>你好</li>
+      <li>你好</li>
+      <li>你好</li>
+      <li>你好</li>
+      <li>你好</li>
+      <li>你好</li>
+      <li>你好</li>
+      <li>你好</li>
+      <li>你好</li>
+      <li>你好</li>
+      <li>你好</li>
+      <li>你好</li>
+      <li>你好</li>
+      <li>你好</li>
+      <li>你好</li>
+      <li>你好</li>
+      <li>你好</li>
+      <li>你好</li>
+      <li>你好</li>
+      <li>你好</li>
+      <li>你好</li>
+      <li>你好</li>
+      <li>你好</li>
+      <li>你好</li>
+      <li>你好</li>
+      <li>你好</li>
+      <li>你好</li>
+      <li>你好</li>
+      <li>你好</li>
+      <li>你好</li>
+      <li>你好</li>
+      <li>你好</li>
+      <li>你好</li>
+      <li>你好</li>
+      <li>你好</li>
+      <li>你好</li>
+      <li>你好</li>
+      <li>你好</li>
+      <li>你好</li>
+      <li>你好</li>
+      <li>你好</li>
+      <li>你好</li>
+      <li>你好</li>
+      <li>你好</li>
+      <li>你好</li>
+      <li>你好</li>
+      <li>你好</li>
+      <li>你好</li>
+      <li>你好</li>
+      <li>你好</li>
+      <li>你好</li>
+      <li>你好</li>
+      <li>你好</li>
+      <li>你好</li>
+      <li>你好</li>
+      <li>你好</li>
+      <li>你好</li>
+      <li>你好</li>
+      <li>你好</li>
+      <li>你好</li>
+      <li>你好</li>
+      <li>你好2</li>
+    </ul>
+  </Scroll>
+
+
 </template>
 
 <script>
+
+// import BScroll from 'better-scroll'
+import Scroll from "@/components/common/scroll/Scroll";
 export default {
-  name: "Category"
+  name: "Category",
+  data() {
+    return {
+      // scroll : null
+    }
+
+  },
+  components: {
+    Scroll
+  },
+  created() {
+  },
+  mounted() {
+    // this.scroll =  new BScroll('.wrapper', {
+    //
+    // })
+  }
 }
 </script>
 
 <style scoped>
-
+.wrapper{
+  height:250px;
+  background-color: cadetblue;
+}
 </style>

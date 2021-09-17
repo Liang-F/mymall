@@ -1,7 +1,8 @@
 <template>
   <swiper>
     <swiper-item v-for="item in banners">
-      <a :href="item.link">
+<!--      item.link-->
+      <a href="javascript:;">
         <img :src="item.image" alt="">
       </a>
     </swiper-item>

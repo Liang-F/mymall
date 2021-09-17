@@ -18,7 +18,7 @@ export default {
     line-height: 44px;
     height: 44px;
     text-align : center;
-    box-shadow: ;
+    /*box-shadow: ;*/
   }
   .left, .right{
     width: 60px;
