@@ -19,24 +19,57 @@ export default {
     probeType: {
       type: Number,
       default: 0
+    },
+    pullUpLoad: {
+      type: Boolean,
+      default: false
+    }
+
+
+  },
+  methods: {
+    scrollTo(x, y, time = 1000){
+      this.scroll && this.scroll.scrollTo(x, y, time)
+    },
+    //
+    finishPullUp(){
+      this.scroll && this.scroll.finishPullUp()
+    },
+    //重新刷新
+    refresh(){
+      this.scroll && this.scroll.refresh()
+      // console.log(1)
+    },
+    //获取当前positionY
+    getCurrentY(){
+      return this.scroll ? this.scroll.y : 0
     }
   },
   mounted() {
     this.scroll = new BScroll('.wrapper', {
       click: true,
-      probeType: this.probeType
+      probeType: this.probeType,
+      pullUpLoad: this.pullUpLoad
     })
-    //滚动监听
-    this.scroll.on('scroll', position => {
-      this.$emit('scroll', position)
-    })
+    //监听滚动的位置
+    if(this.probeType === 2 || this.probeType === 3){
+      this.scroll.on('scroll', position => {
+        this.$emit('scroll', position)
+      })
+    }
+
+
+    //监听上拉
+    if (this.pullUpLoad){
+      this.scroll.on('pullingUp', () => {
+        this.$emit('pullingUp')
+      })
+    }
+
+
 
   },
-  methods: {
-    scrollTo(x, y, time = 1000){
-      this.scroll.scrollTo(x, y, time)
-    }
-  }
+
 }
 </script>
 

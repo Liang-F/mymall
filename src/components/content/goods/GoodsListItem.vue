@@ -1,7 +1,8 @@
 <template>
-  <div class="goods-item" >
+  <div class="goods-item"  @click="itemClick">
 
-      <img :src="goodsItem.show.img" alt="" >
+<!--      <img :src="showImage" alt="" @load="imgLoad">-->
+    <img v-lazy="showImage" alt="" @load="imgLoad">
       <div class="goods-info">
         <p>{{goodsItem.title}}</p>
         <span class="price">{{goodsItem.price}}</span>
@@ -21,7 +22,25 @@ export default {
         return {}
       }
     }
+  },
+  methods: {
+    //图片加载事件
+    imgLoad(){
+      // 在main.js添加bus总线，提交itemImgLoad事件，在Home接收事件并调用scroll的refresh()重新渲染
+      this.$bus.$emit('itemImgLoad')
+    },
+  //  跳转到详情页
+    itemClick(){
+      this.$router.push('/detail/' + this.goodsItem.iid)
+    }
+  },
+  computed: {
+    showImage(){
+      return this.goodsItem.image || this.goodsItem.show.img
+    }
   }
+
+
 }
 </script>
 
